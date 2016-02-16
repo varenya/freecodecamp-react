@@ -1,0 +1,49 @@
+body {
+  background-color: #161616;
+  font-family: 'Varela Round', sans-serif;
+}
+.hero h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin: 10px;
+}
+.feature-wrapper {
+  margin: 15% 0 0;
+}
+
+.hero {
+  padding-top: 5%;
+}
+.icon {
+  height: 175px;
+  width: 175px;
+  line-height: 175px;
+  max-width: 100%;
+  background: #5499D2;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  display: block;
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto 50px;
+}
+h2 {
+  font-size: 25px;
+  color: #353535;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.weather-data {
+  padding-top: 70px;
+}
+.weather-generalinfo{
+  position:relative;
+  right:13%;
+}

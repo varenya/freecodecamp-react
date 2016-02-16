@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello React!</title>
+  <script src="build/react.js"></script>
+  <script src="build/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="weather.css">
+  <style id="style-1-cropbar-clipper">
+    /* Copyright 2014 Evernote Corporation. All rights reserved. */
+
+    .en-markup-crop-options {
+      top: 18px !important;
+      left: 50% !important;
+      margin-left: -100px !important;
+      width: 200px !important;
+      border: 2px rgba(255, 255, 255, .38) solid !important;
+      border-radius: 4px !important;
+    }
+
+    .en-markup-crop-options div div:first-of-type {
+      margin-left: 0px !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="StayFocusd-infobar" style="display:none;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">hide once</a>
+    </span>
+  </div>
+  <header class="hero text-center">
+    <h1> FreeCodeCamp </h1>
+    <h1> Free Weather App </h1>
+  </header>
+  <div id="content">
+    <div class="container" data-reactid=".0">
+      <div class="row feature-wrapper" data-reactid=".0.0">
+        <div class="col-md-4" data-reactid=".0.0.0">
+          <div class="icon">
+            <h2 class="text-center weather-data" data-reactid=".0.0.0.0">Bangalore</h2>
+          </div>
+          <h2 class="text-center"> Location </h2>
+        </div>
+        <div class="col-md-4" data-reactid=".0.0.1">
+          <div class="icon">
+            <h2 class="text-center weather-data" data-reactid=".0.0.1.0"><span data-reactid=".0.0.1.0.0">26</span><span data-reactid=".0.0.1.0.1"> C</span></h2>
+          </div>
+          <h2 class="text-center"> Temperature </h2>
+        </div>
+        <div class="col-md-4" data-reactid=".0.0.2">
+          <div class="icon">
+            <h2 class="text-center weather-data" data-reactid=".0.0.2.0">Clear</h2>
+          </div>
+          <h2 class="text-center"> Sky </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<script type="text/babel" src="temp.js"></script>-->
+
+
+
+</body>
+
+</html>
